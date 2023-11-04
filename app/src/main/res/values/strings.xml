@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">3ITE_OOP</string>
+    <string-array name="Accesses">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+</resources>
