@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSpinnerStyle">
+        <item name="android:textColor">#000000</item> <!-- Change #000000 to the color you want -->
+        <item name="android:popupBackground">#FFFFFF</item> <!-- Change #FFFFFF to the background color you want for the dropdown list -->
+    </style>
+
+
+</resources>

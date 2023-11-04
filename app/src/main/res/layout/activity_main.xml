@@ -8,130 +8,170 @@
     tools:layout_editor_absoluteX="7dp"
     tools:layout_editor_absoluteY="2dp"
     android:fillViewport="true"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#DADADA">
 
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
         <TextView
             android:id="@+id/txtRegistration"
-            android:layout_width="match_parent"
-            android:layout_height="59dp"
-            android:text="\nREGISTRATION" />
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:text="\nREGISTRATION"
+            android:textColor="#1E1E1E"
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/txtFirstname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="FIRST NAME" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="FIRST NAME"
+            android:textColor="#474747"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/edtFirstname"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="#1E1E1E" />
 
         <TextView
             android:id="@+id/txtLastname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="LAST NAME" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="LAST NAME"
+            android:textStyle="bold"
+            android:textColor="#474747"/>
+
         <EditText
             android:id="@+id/edtLastname"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColor="#1E1E1E" />
 
         <TextView
             android:id="@+id/txtPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="PASSWORD" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="PASSWORD"
+            android:textStyle="bold"
+            android:textColor="#474747"/>
+
         <EditText
             android:id="@+id/edtPassword"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColor="#1E1E1E"
             android:inputType="textPassword" />
 
         <TextView
             android:id="@+id/txtDOB"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="DATE OF BIRTH" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="DATE OF BIRTH"
+            android:textStyle="bold"
+            android:textColor="#474747"/>
+
         <EditText
             android:id="@+id/edtBirthday"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:focusable="false"
+            android:textColor="#1E1E1E"
             android:inputType="date" />
 
 
         <TextView
             android:id="@+id/txtEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="EMAIL" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="EMAIL"
+            android:textStyle="bold"
+            android:textColor="#474747"/>
+
         <EditText
             android:id="@+id/edtEmail"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColor="#1E1E1E"
             android:inputType="textEmailAddress" />
 
         <TextView
             android:id="@+id/txtUsername"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="USERNAME" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="USERNAME"
+            android:textStyle="bold"
+            android:textColor="#474747"/>
+
         <EditText
             android:id="@+id/edtUsername"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColor="#1E1E1E"
             android:inputType="text" />
 
         <TextView
             android:id="@+id/txtMobileno"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="MOBILE NUMBER" />
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:text="MOBILE NUMBER"
+            android:textStyle="bold"
+            android:textColor="#474747"/>
+
         <EditText
             android:id="@+id/editPhoneNumber"
-            android:layout_width="match_parent"
+            android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:ems="10"
+            android:textColor="#1E1E1E"
             android:inputType="number" />
 
         <TextView
             android:id="@+id/txtAccess"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="ACCESS" />
+            android:layout_width="340dp"
+            android:layout_height="57dp"
+            android:text="ACCESS"
+            android:textColor="#474747"
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="93dp" />
+            android:layout_width="140dp"
+            android:layout_height="97dp"
+            android:popupBackground="@color/black"
+            android:textColor="#1E1E1E"
+            android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="42dp"
+            android:layout_width="300dp"
+            android:layout_height="203dp"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnRegister"
-                android:layout_width="wrap_content"
+                android:layout_width="128dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#2E982A"
-                android:text="REGISTER" />
+                android:text="REGISTER"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btnMenu"
@@ -139,7 +179,9 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="#5DAFD4"
-                android:text="MAIN MENU" />
+                android:text="MAIN MENU"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 
